@@ -17,7 +17,7 @@ const addNote = function(title, body){
         console.log("New note added!");
     }
     else {
-        console.log("Title taken!");
+        console.log("Title taken !");
     }
 }
 const saveNotes = function(notes){
