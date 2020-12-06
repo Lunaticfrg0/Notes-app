@@ -29,7 +29,7 @@ const loadNotes = () => {
         const dataJSON = dataBuffer.toString();
         return JSON.parse(dataJSON);
     } catch (error) {
-        console.log("File not found!")
+        console.log("File not found !")
         return []
     }
 }
